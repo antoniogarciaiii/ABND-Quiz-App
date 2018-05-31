@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:src="@drawable/lxc_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:text="Coding Intro Pop Quiz"
+            android:textSize="32sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Instructions"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:maxLines="2"
+            android:text="When finished with survey, press submit button to send results." />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="16dp"
+            android:background="#005500" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="1. Which of these is a wireframe?"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/question1" />
+
+        <!--I made the RadioGroup be horizontally laid out so
+            that the user doesn't have to scroll up and down
+            as they choose their answer-->
+        <RadioGroup
+            android:id="@+id/q1_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/q1_radiobutton_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="A"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_radiobutton_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="B"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_radiobutton_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="C"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q1_radiobutton_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="D"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="32dp"
+            android:background="#ccDDcc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="2. Which two of these are primitive data types?"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/q2_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="A. Boolean"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/q2_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="B. Integer"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/q2_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="C. Method"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/q2_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            android:text="D. Class"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="32dp"
+            android:background="#ccDDcc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="3. Fill in the blank.&#10;IDE stands for \n&quot;integrated _______ environment&quot;"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/q3_user_answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:inputType="text"
+            android:hint="Your answer" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="32dp"
+            android:background="#ccDDcc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="4. Regarding XML, what does padding do?"
+            android:textSize="16dp" />
+
+        <RadioGroup
+            android:id="@+id/q4_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A. Adjust the space OUTSIDE the border"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/q4_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B. Adjust space INSIDE the border"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="32dp"
+            android:background="#ccDDcc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="5. What is the name of this method?"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/question5" />
+
+        <EditText
+            android:id="@+id/q5_user_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:hint="Your answer" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:layout_margin="16dp"
+            android:background="#005500" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:onClick="checkAnswers"
+            android:text="get grade" />
+
+    </LinearLayout>
+
+</ScrollView>
