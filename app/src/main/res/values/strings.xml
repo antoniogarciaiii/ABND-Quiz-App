@@ -16,4 +16,5 @@
     <string name="q5_question">What is the name of this method?</string>
     <string name="button_getgrade">Get Grade</string>
     <string name="title_quiz">Introduction to Android Development: Exam</string>
+    <string name="directions_text">When finished with exam, press the submit button to view your grade.</string>
 </resources>

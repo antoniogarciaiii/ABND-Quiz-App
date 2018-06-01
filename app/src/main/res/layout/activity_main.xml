@@ -22,14 +22,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="16dp"
-            android:text="Coding Intro Pop Quiz"
+            android:text="@string/title_quiz"
             android:textSize="32sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="Instructions"
+            android:text="@string/directions"
             android:textSize="24sp" />
 
         <TextView

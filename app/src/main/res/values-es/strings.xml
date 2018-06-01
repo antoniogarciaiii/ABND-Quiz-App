@@ -17,4 +17,5 @@
     <string name="q4_answer_b">B. Ajuste el espacio DENTRO del borde</string>
     <string name="q5_question">¿Cuál es el nombre de este método?</string>
     <string name="button_getgrade">Obtener calificación</string>
+    <string name="directions_text">Cuando termine con el examen, presione el botón de enviar para ver su calificación.</string>
 </resources>
