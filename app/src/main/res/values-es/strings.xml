@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ABND Quiz App</string>
+    <string name="title_quiz">Introducción al desarrollo de Android: Examen</string>
+    <string name="title_instructions">Instrucciones</string>
+    <string name="directions">Direcciones</string>
+    <string name="q1_question">1. ¿Cuál de estas imágenes muestra una wireframe?</string>
+    <string name="q2_question">2. ¿Qué 2 de estas respuestas son tipos de datos primitivos?</string>
+    <string name="q2_answer_a">Booleano</string>
+    <string name="q2_answer_b">Entero</string>
+    <string name="q2_answer_c">Método</string>
+    <string name="q2_answer_d">Clase</string>
+    <string name="q3_question">3. Completa el espacio en blanco. /n EDI (or IDE en Ingles) significa \"entorno de ________ integrado\"</string>
+    <string name="input_hint">Tu respuesta</string>
+    <string name="q4_question">4. En XML, ¿qué hace la propiedad de \'padding\'?</string>
+    <string name="q4_answer_a">A. Ajuste el espacio FUERA del borde</string>
+    <string name="q4_answer_b">B. Ajuste el espacio DENTRO del borde</string>
+    <string name="q5_question">¿Cuál es el nombre de este método?</string>
+    <string name="button_getgrade">Obtener calificación</string>
+</resources>
