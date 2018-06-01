@@ -1,4 +1,4 @@
-package com.example.android.quiz;
+package com.example.android.abndquizapp;
 
 import android.content.Intent;
 import android.net.Uri;
