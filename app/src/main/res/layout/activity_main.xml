@@ -8,8 +8,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_margin="16dp"
         android:layout_height="match_parent"
+        android:layout_margin="16dp"
         android:orientation="vertical">
 
         <ImageView
@@ -37,10 +37,9 @@
             android:text="@string/directions_text" />
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="32dp"
-            android:background="#005500" />
+            android:layout_height="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,49 +57,44 @@
             as they choose their answer-->
         <RadioGroup
             android:id="@+id/q1_group"
-            android:gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/q1_radiobutton_a"
+                style="@style/RadioButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="A"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:text="A" />
 
             <RadioButton
                 android:id="@+id/q1_radiobutton_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="B"
-                android:textAppearance="?android:textAppearanceMedium" />
+                style="@style/RadioButton"
+                android:text="B" />
 
             <RadioButton
                 android:id="@+id/q1_radiobutton_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="C"
-                android:textAppearance="?android:textAppearanceMedium" />
+                style="@style/RadioButton"
+                android:text="C" />
 
             <RadioButton
                 android:id="@+id/q1_radiobutton_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:text="D"
-                android:textAppearance="?android:textAppearanceMedium" />
+                style="@style/RadioButton"
+                android:text="D" />
         </RadioGroup>
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="32dp"
-            android:background="#ccDDcc" />
+            android:layout_height="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -137,10 +131,9 @@
             android:textAppearance="?android:textAppearanceMedium" />
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="32dp"
-            android:background="#ccDDcc" />
+            android:layout_height="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -156,10 +149,9 @@
             android:inputType="text" />
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="32dp"
-            android:background="#ccDDcc" />
+            android:layout_height="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -189,10 +181,9 @@
         </RadioGroup>
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="32dp"
-            android:background="#ccDDcc" />
+            android:layout_height="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -208,16 +199,17 @@
             android:hint="@string/input_hint" />
 
         <View
+            style="@style/SpacerBar"
             android:layout_width="fill_parent"
-            android:layout_height="4dp"
-            android:layout_margin="16dp"
-            android:background="#005500" />
+            android:layout_height="4dp" />
 
         <Button
+            style="@style/Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="checkAnswers"
             android:text="@string/button_getgrade" />
+
 
     </LinearLayout>
 

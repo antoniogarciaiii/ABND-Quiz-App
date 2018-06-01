@@ -3,9 +3,24 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">#33691e</item>
-        <item name="colorPrimaryDark">#003d00</item>
-        <item name="colorAccent">#629749</item>
+        <item name="colorPrimary">@android:color/holo_green_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_green_dark</item>
+        <item name="colorAccent">@android:color/holo_green_dark</item>
+    </style>
+
+    <style name="SpacerBar">
+        <item name="android:layout_margin">32dp</item>
+        <item name="android:background">#005500</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
     </style>
 
 </resources>
