@@ -10,12 +10,12 @@
     <string name="q2_answer_b">Entero</string>
     <string name="q2_answer_c">Método</string>
     <string name="q2_answer_d">Clase</string>
-    <string name="q3_question">3. Completa el espacio en blanco. /n EDI (or IDE en Ingles) significa \"entorno de ________ integrado\"</string>
+    <string name="q3_question">3. Completa el espacio en blanco.\nEDI (or IDE en Ingles) significa entorno de ________ integrado</string>
     <string name="input_hint">Tu respuesta</string>
     <string name="q4_question">4. En XML, ¿qué hace la propiedad de \'padding\'?</string>
     <string name="q4_answer_a">A. Ajuste el espacio FUERA del borde</string>
     <string name="q4_answer_b">B. Ajuste el espacio DENTRO del borde</string>
-    <string name="q5_question">Escriba esta línea de código de manera más eficiente: \\n x + 2 = x;</string>
+    <string name="q5_question">Escriba esta línea de código de manera más eficiente: \nx + 2 = x;</string>
     <string name="button_getgrade">Obtener calificación</string>
     <string name="directions_text">Cuando termine con el examen, presione el botón de enviar para ver su calificación.</string>
 </resources>
