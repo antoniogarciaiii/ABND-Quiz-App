@@ -3,7 +3,7 @@
     <string name="title_instructions">Instructions</string>
     <string name="directions">Directions</string>
     <string name="q1_question">1. Which of these images displays a wireframe?</string>
-    <string name="q2_question">2. Which 2 of these answers are primitive data types?</string>
+    <string name="q2_question">2. Which of these 2 answers are primitive data types?</string>
     <string name="q2_answer_a">Boolean</string>
     <string name="q2_answer_b">Integer</string>
     <string name="q2_answer_c">Method</string>

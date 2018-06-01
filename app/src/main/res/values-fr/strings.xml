@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ABND Quiz App</string>
+    <string name="title_quiz">Introduction au développement Android: examen</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="directions">instructions</string>
+    <string name="q1_question">1. Laquelle de ces images affiche une maquette fonctionnelle?</string>
+    <string name="q2_question">2. Lesquelles de ces 2 réponses sont des types de données primitifs?</string>
+    <string name="q2_answer_a">Booléen</string>
+    <string name="q2_answer_b">Entier</string>
+    <string name="q2_answer_c">Méthode</string>
+    <string name="q2_answer_d">Classe</string>
+    <string name="q3_question">3. Remplissez le champ vide. / n EDD (ou IDE en Anglais) signifie environnement de __________</string>
+    <string name="input_hint">Ta Réponse</string>
 </resources>
