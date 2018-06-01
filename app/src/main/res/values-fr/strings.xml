@@ -15,7 +15,7 @@
     <string name="q4_question">4. En XML, que fait la propriété padding?</string>
     <string name="q4_answer_a">A. Ajuster l\'espace extérieur de la frontière</string>
     <string name="q4_answer_b">B. Ajuster l\'espace à l\'intérieur de la frontière</string>
-    <string name="q5_question">Quel est le nom de cette méthode?</string>
+    <string name="q5_question">Ecrire cette ligne de code plus efficacement: \\n x + 2 = x;</string>
     <string name="button_getgrade">Obtenir une note</string>
     <string name="directions_text">Une fois l\'examen terminé, appuyez sur le bouton Envoyer pour afficher votre note.</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="q4_question">4. En XML, ¿qué hace la propiedad de \'padding\'?</string>
     <string name="q4_answer_a">A. Ajuste el espacio FUERA del borde</string>
     <string name="q4_answer_b">B. Ajuste el espacio DENTRO del borde</string>
-    <string name="q5_question">¿Cuál es el nombre de este método?</string>
+    <string name="q5_question">Escriba esta línea de código de manera más eficiente: \\n x + 2 = x;</string>
     <string name="button_getgrade">Obtener calificación</string>
     <string name="directions_text">Cuando termine con el examen, presione el botón de enviar para ver su calificación.</string>
 </resources>

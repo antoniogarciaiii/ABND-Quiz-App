@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
        checkbox w/2 answers that needs to work off a conditional statement */
     final String q3_Answer = "development";
     final int q4_Answer = R.id.q4_b;
-    final String q5_Answer = "calculateTip";
+    final String q5_Answer = "x += 2;";
 
 
     @Override

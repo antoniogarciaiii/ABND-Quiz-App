@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:maxLines="2"
-            android:text="When finished with survey, press submit button to send results." />
+            android:text="@string/directions_text" />
 
         <View
             android:layout_width="fill_parent"
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="1. Which of these is a wireframe?"
+            android:text="@string/q1_question"
             android:textSize="16dp" />
 
         <ImageView
@@ -112,7 +112,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="2. Which two of these are primitive data types?"
+            android:text="@string/q2_question"
             android:textSize="16dp" />
 
         <CheckBox
@@ -122,7 +122,7 @@
             android:layout_marginBottom="4dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="4dp"
-            android:text="A. Boolean"
+            android:text="@string/q2_answer_a"
             android:textAppearance="?android:textAppearanceMedium" />
 
         <CheckBox
@@ -132,7 +132,7 @@
             android:layout_marginBottom="4dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="4dp"
-            android:text="B. Integer"
+            android:text="@string/q2_answer_b"
             android:textAppearance="?android:textAppearanceMedium" />
 
         <CheckBox
@@ -142,7 +142,7 @@
             android:layout_marginBottom="4dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="4dp"
-            android:text="C. Method"
+            android:text="@string/q2_answer_c"
             android:textAppearance="?android:textAppearanceMedium" />
 
         <CheckBox
@@ -152,7 +152,7 @@
             android:layout_marginBottom="4dp"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="4dp"
-            android:text="D. Class"
+            android:text="@string/q2_answer_d"
             android:textAppearance="?android:textAppearanceMedium" />
 
         <View
@@ -165,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="3. Fill in the blank.&#10;IDE stands for \n&quot;integrated _______ environment&quot;"
+            android:text="@string/q3_question"
             android:textSize="16dp" />
 
         <EditText
@@ -175,8 +175,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginTop="8dp"
-            android:inputType="text"
-            android:hint="Your answer" />
+            android:hint="@string/input_hint"
+            android:inputType="text" />
 
         <View
             android:layout_width="fill_parent"
@@ -188,7 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="4. Regarding XML, what does padding do?"
+            android:text="@string/q4_question"
             android:textSize="16dp" />
 
         <RadioGroup
@@ -202,14 +202,14 @@
                 android:id="@+id/q4_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A. Adjust the space OUTSIDE the border"
+                android:text="@string/q4_answer_a"
                 android:textAppearance="?android:textAppearanceMedium" />
 
             <RadioButton
                 android:id="@+id/q4_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="B. Adjust space INSIDE the border"
+                android:text="@string/q4_answer_b"
                 android:textAppearance="?android:textAppearanceMedium" />
         </RadioGroup>
 
@@ -223,14 +223,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
-            android:text="5. What is the name of this method?"
+            android:text="@string/q5_question"
             android:textSize="16dp" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:src="@drawable/question5" />
 
         <EditText
             android:id="@+id/q5_user_answer"
@@ -253,7 +248,7 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:onClick="checkAnswers"
-            android:text="get grade" />
+            android:text="@string/button_getgrade" />
 
     </LinearLayout>
 
