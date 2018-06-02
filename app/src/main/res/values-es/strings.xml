@@ -18,4 +18,5 @@
     <string name="q5_question">Escriba esta línea de código de manera más eficiente: \nx + 2 = x;</string>
     <string name="button_getgrade">Obtener calificación</string>
     <string name="directions_text">Cuando termine con el examen, presione el botón de enviar para ver su calificación.</string>
+    <string name="button_reset">Reiniciar</string>
 </resources>

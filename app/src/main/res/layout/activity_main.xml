@@ -206,9 +206,9 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <Button
                 style="@style/Button"
@@ -217,12 +217,13 @@
                 android:onClick="checkAnswers"
                 android:text="@string/button_getgrade" />
 
+
             <Button
                 style="@style/Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="resetAnswers"
-                android:text="RESET" />
+                android:text="@string/button_reset" />
 
         </LinearLayout>
 
