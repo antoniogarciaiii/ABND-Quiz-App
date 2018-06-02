@@ -113,7 +113,8 @@ public class MainActivity extends AppCompatActivity {
     private void resetAnswers() {
         score = 0;
         // reset q1
-
+        RadioGroup rg = (RadioGroup) findViewById(R.id.q1_group);
+        rg.setChecked(false)
 
     }
 
