@@ -109,13 +109,37 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // reset score, uncheck boxes, unpress radio buttons, empty input boxes
-    private void resetAnswers() {
+    // reset score, uncheck boxes, revert radio button states, empty input boxes
+    public void resetApp(View view) {
         score = 0;
-        // reset q1
-        RadioGroup rg = (RadioGroup) findViewById(R.id.q1_group);
-        rg.setChecked(false)
+        resetQ1();
+        resetQ2();
+//        resetQ3();
+//        resetQ4();
+//        resetQ5();
+    }
 
+    private void resetQ1(){
+        // reset q1
+        // trying something from: https://stackoverflow.com/questions/10497921/uncheck-all-radiobutton-in-a-radiobuttongroup
+        RadioGroup q1_radiogroup = findViewById(R.id.q1_group);
+        q1_radiogroup.clearCheck();
+    }
+
+    // uncheck checkboxes for question 2
+    private  void resetQ2() {
+        // checkbox a
+        CheckBox q2_CheckBox_a = findViewById(R.id.q2_a);
+        q2_CheckBox_a.setChecked(false);
+        // checkbox b
+        CheckBox q2_CheckBox_b = findViewById(R.id.q2_b);
+        q2_CheckBox_b.setChecked(false);
+        // checkbox c
+        CheckBox q2_CheckBox_c = findViewById(R.id.q2_c);
+        q2_CheckBox_c.setChecked(false);
+        // checkbox d
+        CheckBox q2_CheckBox_d = findViewById(R.id.q2_d);
+        q2_CheckBox_d.setChecked(false);
     }
 
 }
