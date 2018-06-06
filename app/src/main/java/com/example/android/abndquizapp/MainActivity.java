@@ -142,4 +142,9 @@ public class MainActivity extends AppCompatActivity {
         q2_CheckBox_d.setChecked(false);
     }
 
+    private void resetQ3() {
+        //trying something from https://android--code.blogspot.com/2015/08/android-edittext-clear.html
+        EditText q3_EditText = findViewById(R.id.q3_user_answer);
+        q3_EditText.getText().clear();
+    }
 }
