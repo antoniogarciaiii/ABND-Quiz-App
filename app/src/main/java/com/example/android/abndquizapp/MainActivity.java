@@ -116,8 +116,8 @@ public class MainActivity extends AppCompatActivity {
         resetQ1();
         resetQ2();
         resetQ3();
-//        resetQ4();
-//        resetQ5();
+        resetQ4();
+        resetQ5();
     }
 
     private void resetQ1(){
@@ -148,5 +148,19 @@ public class MainActivity extends AppCompatActivity {
         // also trying from https://stackoverflow.com/questions/4590957/how-to-set-text-in-an-edittext
         EditText q3_EditText = findViewById(R.id.q3_user_answer);
         q3_EditText.setText("", TextView.BufferType.EDITABLE);
+    }
+
+    private void resetQ4() {
+        // reset q4
+        // trying something from: https://stackoverflow.com/questions/10497921/uncheck-all-radiobutton-in-a-radiobuttongroup
+        RadioGroup q4_radiogroup = findViewById(R.id.q4_group);
+        q4_radiogroup.clearCheck();
+    }
+
+    private void resetQ5() {
+        // reset q4
+        // trying something from: https://stackoverflow.com/questions/10497921/uncheck-all-radiobutton-in-a-radiobuttongroup
+        EditText q5_EditText = findViewById(R.id.q5_user_answer);
+        q5_EditText.setText("", TextView.BufferType.EDITABLE);
     }
 }
