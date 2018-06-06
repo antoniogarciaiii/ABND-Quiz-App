@@ -12,6 +12,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.abndquizapp.R;
@@ -114,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
         score = 0;
         resetQ1();
         resetQ2();
-//        resetQ3();
+        resetQ3();
 //        resetQ4();
 //        resetQ5();
     }
@@ -144,7 +145,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void resetQ3() {
         //trying something from https://android--code.blogspot.com/2015/08/android-edittext-clear.html
+        // also trying from https://stackoverflow.com/questions/4590957/how-to-set-text-in-an-edittext
         EditText q3_EditText = findViewById(R.id.q3_user_answer);
-        q3_EditText.getText().clear();
+        q3_EditText.setText("", TextView.BufferType.EDITABLE);
     }
 }
