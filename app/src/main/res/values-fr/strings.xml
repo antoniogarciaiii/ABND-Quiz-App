@@ -10,7 +10,7 @@
     <string name="q2_answer_b">Entier</string>
     <string name="q2_answer_c">Méthode</string>
     <string name="q2_answer_d">Classe</string>
-    <string name="q3_question">3. Remplissez le champ vide. \nEDD (ou IDE en Anglais) signifie environnement de __________</string>
+    <string name="q3_question">3. Remplissez le champ vide. \nEn Anglais, \"IDE\" signifie \"Integrated _____ Environment.\"</string>
     <string name="input_hint">Ta Réponse</string>
     <string name="q4_question">4. En XML, que fait la propriété padding?</string>
     <string name="q4_answer_a">A. Ajuster l\'espace extérieur de la frontière</string>

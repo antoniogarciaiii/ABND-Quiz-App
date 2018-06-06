@@ -8,7 +8,7 @@
     <string name="q2_answer_b">Integer</string>
     <string name="q2_answer_c">Method</string>
     <string name="q2_answer_d">Class</string>
-    <string name="q3_question">3. Fill in the blank.\nIDE stands for integrated _____ environment</string>
+    <string name="q3_question">3. Fill in the blank. IDE stands for integrated _____ environment</string>
     <string name="input_hint">Your answer</string>
     <string name="q4_question">4. In XML, what does the padding property do?</string>
     <string name="q4_answer_a">A. Adjust the space OUTSIDE of the border</string>

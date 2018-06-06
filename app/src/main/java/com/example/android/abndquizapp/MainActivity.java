@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         resetQ5();
     }
 
-    private void resetQ1(){
+    private void resetQ1() {
         // reset q1
         // trying something from: https://stackoverflow.com/questions/10497921/uncheck-all-radiobutton-in-a-radiobuttongroup
         RadioGroup q1_radiogroup = findViewById(R.id.q1_group);
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // uncheck checkboxes for question 2
-    private  void resetQ2() {
+    private void resetQ2() {
         // checkbox a
         CheckBox q2_CheckBox_a = findViewById(R.id.q2_a);
         q2_CheckBox_a.setChecked(false);

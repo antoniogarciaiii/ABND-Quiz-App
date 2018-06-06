@@ -10,7 +10,7 @@
     <string name="q2_answer_b">Entero</string>
     <string name="q2_answer_c">Método</string>
     <string name="q2_answer_d">Clase</string>
-    <string name="q3_question">3. Completa el espacio en blanco.\nEDI (or IDE en Ingles) significa entorno de ________ integrado</string>
+    <string name="q3_question">3. Completa el espacio en blanco. En Ingles, \"IDE\" significa \"Integrated _____ Environment.\"</string>
     <string name="input_hint">Tu respuesta</string>
     <string name="q4_question">4. En XML, ¿qué hace la propiedad de \'padding\'?</string>
     <string name="q4_answer_a">A. Ajuste el espacio FUERA del borde</string>
