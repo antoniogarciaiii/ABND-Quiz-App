@@ -19,4 +19,5 @@
     <string name="button_getgrade">Obtener calificación</string>
     <string name="directions_text">Cuando termine con el examen, presione el botón de enviar para ver su calificación.</string>
     <string name="button_reset">Reiniciar</string>
+    <string name="toast_preamble">"Tu puntuación: "</string>
 </resources>

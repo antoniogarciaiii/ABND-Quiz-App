@@ -19,4 +19,5 @@
     <string name="button_getgrade">Obtenir une note</string>
     <string name="directions_text">Une fois l\'examen terminé, appuyez sur le bouton Envoyer pour afficher votre note.</string>
     <string name="button_reset">Réinitialiser</string>
+    <string name="toast_preamble">"Ton score: "</string>
 </resources>

@@ -47,7 +47,8 @@ public class MainActivity extends AppCompatActivity {
         checkQuestion5();
 
         // find way to use string resource for score preamble. alternatively, display score only
-        String toastMessage = "you got " + score + "%";
+
+        String toastMessage = score + "%";
         Toast grades = Toast.makeText(MainActivity.this, toastMessage, Toast.LENGTH_LONG);
         grades.show();
     }

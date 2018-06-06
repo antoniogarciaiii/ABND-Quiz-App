@@ -18,4 +18,5 @@
     <string name="title_quiz">Introduction to Android Development: Exam</string>
     <string name="directions_text">When finished with exam, press the submit button to view your grade.</string>
     <string name="button_reset">Reset</string>
+    <string name="toast_preamble">Your score:</string>
 </resources>
